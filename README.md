@@ -4,7 +4,7 @@ Excercise 1:
 
 Lab 01: https://github.com/thaong2005/Web-Application-Development-_-Lab-01
 
-Persional Portfolio: https://thaong2005.github.io/My-Portfolio/
+Persional Portfolio: https://github.com/thaong2005/My-Portfolio/
 
 <br>
 Excercise 2 result:
