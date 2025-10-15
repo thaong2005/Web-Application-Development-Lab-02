@@ -1,0 +1,20 @@
+  body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+    .survey-container {
+      background-color: #fff;
+      padding: 30px;
+      max-width: 600px;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .survey-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .survey-header img {
+      width: 100px;
+    }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="survey-container">
+  <div class="survey-header">
+    <img src="IUlogo.png" alt="University Logo">
+    <h2 class="text-success" style="color :rgb(0, 177, 133)">Survey</h2>
+    <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+  </div>
+
+  <form>
+    <h4 style="color : rgb(74, 185, 237);">Your information:</h4>
+
+    <div> 
+      <label for="fname" class="form-label" style="font-weight: bold;">First Name</label>
+      <input type="text" class="form-control" id="fname" placeholder="Enter your first name">
+    </div>
+    <br>
+    <div>
+      <label for="lname" class="form-label" style="font-weight: bold;">Last Name</label>
+      <input type="text" class="form-control" id="lname" placeholder="Enter your last name">
+    </div>
+    <br>
+    <div>
+      <label for="email" class="form-label" style="font-weight: bold;">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+    <br>
+    <div>
+      <label for="dob" class="form-label" style="font-weight: bold;">Date of Birth</label>
+      <input type="date" class="form-control" id="dob">
+    </div>
+    <br>
+    <h4 style="color : rgb(74, 185, 237);">How did you hear about us?</h4>
+    <div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="source" id="search" value="search">
+        <label class="form-check-label" for="search">Search engine</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="source" id="word" value="word">
+        <label class="form-check-label" for="word">Word of mouth</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="source" id="social" value="social">
+        <label class="form-check-label" for="social">Social Media</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="source" id="other" value="other">
+        <label class="form-check-label" for="other">Other</label>
+      </div>
+    </div>
+    <br>
+    <h4 style="color : rgb(74, 185, 237);">Would you like to receive announcements about new CDs and special offers?</h4>
+    <div>
+      <input class="form-check-input" type="checkbox" id="yes1">
+      <label class="form-check-label" for="yes1">YES, I'd like that.</label>
+    </div>
+    <div>
+      <input class="form-check-input" type="checkbox" id="yes2">
+      <label class="form-check-label" for="yes2">YES, please send me email announcements.</label>
+    </div>
+    <br>
+    <div>
+      <label for="contact" class="form-label">Please contact me by:</label>
+      <select class="form-select" id="contact">
+        <option>Email or postal mail</option>
+        <option>Email only</option>
+        <option>Postal mail only</option>
+      </select>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-success w-100">Submit</button>
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+
+</body>
+</html>
